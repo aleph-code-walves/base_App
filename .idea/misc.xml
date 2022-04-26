@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/7384190/AndroidStudioProjects/base_aplicativo2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2385" />
+        <entry key="..\:/Users/7384190/AndroidStudioProjects/base_aplicativo2/app/src/main/res/drawable/button.xml" value="0.2385" />
+        <entry key="..\:/Users/7384190/AndroidStudioProjects/base_aplicativo2/app/src/main/res/drawable/ic_aviaodestino.xml" value="0.2385" />
+        <entry key="..\:/Users/7384190/AndroidStudioProjects/base_aplicativo2/app/src/main/res/drawable/ic_aviaorigem.xml" value="0.2385" />
+        <entry key="..\:/Users/7384190/AndroidStudioProjects/base_aplicativo2/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/alves/AndroidStudioProjects/base_aplicativo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2595" />
         <entry key="..\:/Users/alves/AndroidStudioProjects/base_aplicativo/app/src/main/res/drawable/baground_top.xml" value="0.2595" />
         <entry key="..\:/Users/alves/AndroidStudioProjects/base_aplicativo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />

@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <View
         android:id="@+id/containertop"
         style="@style/container_top"
         android:layout_height="256dp"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
     <ImageView
         android:id="@+id/circulos"
         android:layout_width="136dp"
@@ -30,10 +31,41 @@
         />
 
     <EditText
+        android:id="@+id/labelpesquisa"
         style="@style/container_labels"
         android:layout_below="@id/textoTela"
+        android:layout_marginTop="8dp"
         android:hint="@string/searchr"
+        android:drawableLeft="@drawable/ic_search"
         />
+
+    <EditText
+        android:id="@+id/labelorigem"
+        style="@style/container_labels"
+        android:layout_below="@id/containertop"
+        android:layout_marginTop="19dp"
+        android:hint="@string/Origem"
+        android:drawableLeft="@drawable/ic_aviaorigem"
+        />
+
+    <EditText
+        android:id="@+id/labeldetino"
+        style="@style/container_labels"
+        android:layout_below="@id/labelorigem"
+        android:layout_marginTop="12dp"
+        android:hint="@string/Destino"
+        android:drawableLeft="@drawable/ic_aviaodestino"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pesquisarbutton"
+        style="@style/container_button"
+        android:clickable="true"
+        android:text="@string/search"
+        android:layout_below="@id/labeldetino"
+
+        />
+
+
 
 
 
